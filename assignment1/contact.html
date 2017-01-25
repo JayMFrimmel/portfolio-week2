@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Basic Portfolio</title>
 	<meta charset="utf-8">
@@ -9,64 +9,62 @@
 
 <body>
 	<!-- header section with main title and page links -->
-	<header>
-		<div class="name">
-			<h1>Jay M. Frimmel</h1>
-		</div>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Jay M. Frimmel
+			</a>
 
 		<nav>
-			<div class="contact">
 			<a href="index.html">About</a>
 			<a href="portfolio.html">Portfolio</a>
 			<a href="contact.html">Contact</a>
-			</div>
 		</nav>
-	</header>
-	<div style="clear: both;">		
 		</div>
-
+	</header>
+	
 	<!-- main section for all pages and has aside part -->
-	<section>
-		<div class="container">
-			<h2>Contact</h2>
+		<div id="main-container" class="container">
+			<section class="main-section">
 
-			<article>
-			<form action="/my-handling-form-page" method="post">
-				<div>
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="username" placeholder="Jane Smith" required />
-				</div>
-				<div>
-					<label for="mail">E-mail:</label>
-					<input type="email" id="mail" name="user_mail" placeholder="jsmith@email.com" required />
-				</div>
-				<div>
-					<label for="msg">Message:	</label>
-					<textarea id="msg" name="user_message" required>
-					</textarea>
-				</div>
-				<div class="button">
-					<button type="submit">Send your message</button>
-				</div>	
+				<h1>Contact</h1>
+
+			<form id="contact-form">
+				<ul>
+					 <li>
+					 	<label for="name">Name</label>
+					 	<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					 </li>
+					 <li>
+					 	<label for="email">Email</label>
+					 	<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					 </li>
+					 <li><label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+				
 			</form>
-			</article>
+		</section>
 
-		<aside>
-			<h3>Connect With Me</h3>
-				<div id="connect">
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect With Me</h2>
+				
 				<img src="assets/images/github-512.png" alt="GitHub" height="75" width="70">
 				<img src="assets/images/linkdin.png" alt="LinkdIn" width="70" height="75">
 				<img src="assets/images/stackoverflow.png" alt="StackOverflow" height="75" width="70">
-				</div>
-		</aside>
-		</div>
-	</section>
+			</div>
+		</section>
+	</div>
 	
 	<div style="clear: both;">		
 		</div>
 
 	<footer>
-		Copyright 2016; Jay M. Frimmel
+		<div class="container">
+			&copy; Copyright 2016; Jay M. Frimmel
+		</div>
 	</footer>
 
 </body>
