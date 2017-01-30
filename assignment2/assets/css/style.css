@@ -62,11 +62,13 @@ footer {
 }
 
 /* sidebar */
-/*
 .sidebar {
-    background-color: #ffffff;
-    padding: 30px;
-    width: 100%;
-    max-width: 270px;
-    border: 1 px solid #dddddd;
-} */
+
+}
+
+#main-container {
+    background-color: #CFF0C5;
+   }
+#social {
+    
+}
