@@ -23,6 +23,8 @@ h1,h2,h3 {
 h1 {
     font-size: 30px;
     line-height: 45px;
+    text-align: center;
+    font-weight: 800;
     border-bottom: 3px #dddddd;
     padding-bottom: 20px;
 }
@@ -61,14 +63,16 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
-/* sidebar */
-.sidebar {
-
-}
-
+/* main container */
 #main-container {
     background-color: #CFF0C5;
-   }
-#social {
-    
+    }
+/* sidebar */
+.sidebar {
+    padding-top: 40px;
+}
+.thumbnail {
+    padding-top: 7px;
+    border: 2px solid black;
+    text-align: center;
 }
